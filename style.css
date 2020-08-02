@@ -1,0 +1,181 @@
+body {
+  font-size: 20px;
+  font-family: Raleway, arial;
+ 
+
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+    font-size:16px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+
+h2 {
+    padding-top:20px;
+    font-size:35px;
+}
+h1 {
+    padding-top:20px;
+    font-size:50px;
+    font-weight:bold;
+}
+/* adjust nav column size*/
+.intro-description{
+
+
+    left:0;
+    right:0;
+    margin:auto;
+    color:white;
+    font-weight:lighter;
+    padding-top:150px;
+    width:50%;
+}
+
+.intro-description > h1 {
+    font-size:60px;
+}
+.intro-description > h2 {
+    font-size:40px;
+}
+
+
+/*adjust padding of each section */
+
+.imgAbout {
+    left:0;
+    right:0;
+    margin:auto;
+    width:25vw;
+    height:35vh;
+    box-shadow: 0px 0px 20px black;
+    opacity: 1 !important;
+
+}
+
+
+#project {
+    padding-bottom: 2em;
+}
+
+
+
+i.fa:hover {
+    cursor: pointer;
+}
+
+.project-tile {
+    position: relative;
+    height: 325px;
+    width: 450px;
+    display: inline-block;
+    margin: 55px;
+
+}
+
+.project-tile img {
+    display: block;
+    height: 325px;
+    width: 450px;
+    max-width:inherit;
+
+
+}
+
+.imageFlex {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items:center;
+
+}
+
+span {
+    width:100%;
+    height:60px;
+    position: absolute;
+    display:block;
+    background-color: #000;
+    opacity: .7;
+    color: #fff;
+    font-size:14px;
+
+}
+
+
+
+
+#profile-img {
+    height:225px;
+    width:225px;
+    border-radius:50%;
+    margin-bottom: 25px;
+
+}
+
+#profile-container{
+    left:0;
+    right:0;
+    margin:auto;
+    margin-top:20px;
+    color:black;
+
+}
+
+
+.mainPicture {
+    background-image: url("https://res.cloudinary.com/dzar4fwt3/image/upload/v1596248547/Portfolio%20Photo/background-image_tqz9s1.jpg")  !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+
+
+}
+
+
+.introText {
+  
+    font-size:20px;
+    width:60   %;
+    margin:auto;
+    margin-top:1em;
+    margin-bottom:1em;
+  
+}
+#profile-container > a {
+  color:black;
+  padding:25px;
+}
+
+
+
+#projects{
+  background-color:#587498;
+      padding-bottom:50px;
+}
+
+
+#proj{
+    margin-top:50px;
+    position:relative;
+
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .imageFlex {
+        flex-direction:column;
+    }
+    .project-tile {
+      
+        margin: 55px 0px;
+    }
+  
+
+
+}
